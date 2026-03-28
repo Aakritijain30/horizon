@@ -1,4 +1,4 @@
-# Project 1 — Static Webpage Design
+# Static Webpage Design
 **Horizon Studio** | Foundation of Visual Architecture & Integrity
 
 ---
