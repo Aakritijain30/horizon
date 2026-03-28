@@ -11,6 +11,8 @@ A pixel-perfect static webpage built with pure HTML and CSS — no frameworks, n
 
 ---
 
+**[→ View Live on GitHub Pages](https://Aakritijain30.github.io/horizon)**
+
 ## Tech Stack
 
 - **HTML5** — Semantic markup only
