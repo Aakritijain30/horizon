@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Horizon — a design studio crafting bold digital experiences for forward-thinking brands." />
+  <title>Horizon — Digital Design Studio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
+      <a href="/" class="site-header__logo" aria-label="Horizon home">
+        <span class="site-header__logo-mark" aria-hidden="true">H/</span>
+        <span class="site-header__logo-name">Horizon</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul class="site-nav__list" role="list">
+          <li class="site-nav__item"><a class="site-nav__link" href="#work">Work</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="#services">Services</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="#about">About</a></li>
+          <li class="site-nav__item"><a class="site-nav__link site-nav__link--cta" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <p class="hero__eyebrow">Est. 2019 · New Delhi</p>
+          <h1 id="hero-heading" class="hero__heading">
+            We build<br />
+            <em class="hero__heading-em">visual<br />architecture</em><br />
+            that lasts.
+          </h1>
+          <p class="hero__body">
+            A studio at the intersection of strategy, craft, and code.
+            We partner with ambitious brands to make the digital world
+            feel inevitable.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#work">View Our Work</a>
+            <a class="btn btn--ghost" href="#about">Our Process</a>
+          </div>
+        </div>
+
+        <figure class="hero__figure">
+          <img
+            class="hero__image"
+            src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=900&h=1100&fit=crop&auto=format&fm=webp"
+            alt="Abstract layered geometry representing structured visual thinking"
+            width="900"
+            height="1100"
+          />
+          <div class="hero__image-badge" aria-hidden="true">
+            <span class="hero__image-badge-text">01 — Studio</span>
+          </div>
+        </figure>
+      </div>
+
+      <div class="hero__ticker" aria-hidden="true">
+        <div class="hero__ticker-track">
+          <span>Brand Identity</span><span aria-hidden="true">·</span>
+          <span>Web Design</span><span aria-hidden="true">·</span>
+          <span>Motion</span><span aria-hidden="true">·</span>
+          <span>Development</span><span aria-hidden="true">·</span>
+          <span>Strategy</span><span aria-hidden="true">·</span>
+          <span>Brand Identity</span><span aria-hidden="true">·</span>
+          <span>Web Design</span><span aria-hidden="true">·</span>
+          <span>Motion</span><span aria-hidden="true">·</span>
+          <span>Development</span><span aria-hidden="true">·</span>
+          <span>Strategy</span><span aria-hidden="true">·</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK / PORTFOLIO -->
+    <section class="work" id="work" aria-labelledby="work-heading">
+      <div class="section-header">
+        <h2 id="work-heading" class="section-header__title">Selected Work</h2>
+        <p class="section-header__meta">02 — Portfolio</p>
+      </div>
+
+      <ul class="work__grid" role="list">
+
+        <li class="project-card project-card--large">
+          <figure class="project-card__figure">
+            <img
+              class="project-card__image"
+              src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&h=700&fit=crop&auto=format&fm=webp"
+              alt="Neon-lit campaign visuals for Pulse wearables brand"
+              width="1200"
+              height="700"
+            />
+          </figure>
+          <div class="project-card__info">
+            <span class="project-card__category">Brand Identity · Motion</span>
+            <h3 class="project-card__title">Pulse Wearables</h3>
+            <p class="project-card__desc">Full brand system for a next-gen health-tech startup — from mark to motion to launch campaign.</p>
+            <a class="project-card__link" href="#" aria-label="View Pulse Wearables case study">Case Study →</a>
+          </div>
+        </li>
+
+        <li class="project-card">
+          <figure class="project-card__figure">
+            <img
+              class="project-card__image"
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&h=500&fit=crop&auto=format&fm=webp"
+              alt="Minimalist e-commerce interface for Forma furniture"
+              width="700"
+              height="500"
+            />
+          </figure>
+          <div class="project-card__info">
+            <span class="project-card__category">Web Design · Dev</span>
+            <h3 class="project-card__title">Forma Furniture</h3>
+            <p class="project-card__desc">Luxury DTC storefront built for conversion without sacrificing craft.</p>
+            <a class="project-card__link" href="#" aria-label="View Forma Furniture case study">Case Study →</a>
+          </div>
+        </li>
+
+        <li class="project-card">
+          <figure class="project-card__figure">
+            <img
+              class="project-card__image"
+              src="https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=700&h=500&fit=crop&auto=format&fm=webp"
+              alt="Abstract data visualisation for Orbit analytics platform"
+              width="700"
+              height="500"
+            />
+          </figure>
+          <div class="project-card__info">
+            <span class="project-card__category">UX · Data Viz</span>
+            <h3 class="project-card__title">Orbit Analytics</h3>
+            <p class="project-card__desc">Dashboard redesign that turned dense telemetry into readable intelligence.</p>
+            <a class="project-card__link" href="#" aria-label="View Orbit Analytics case study">Case Study →</a>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services" aria-labelledby="services-heading">
+      <div class="section-header">
+        <h2 id="services-heading" class="section-header__title">What We Do</h2>
+        <p class="section-header__meta">03 — Services</p>
+      </div>
+
+      <ul class="services__list" role="list">
+        <li class="service-item">
+          <span class="service-item__number" aria-hidden="true">01</span>
+          <div class="service-item__body">
+            <h3 class="service-item__title">Brand Identity</h3>
+            <p class="service-item__desc">Logo systems, typography, colour, voice — a complete language for your brand that scales from business card to billboard.</p>
+          </div>
+        </li>
+        <li class="service-item">
+          <span class="service-item__number" aria-hidden="true">02</span>
+          <div class="service-item__body">
+            <h3 class="service-item__title">Web Design & Development</h3>
+            <p class="service-item__desc">Semantic, performant, accessible websites — engineered to pass every audit and feel exceptional to every user.</p>
+          </div>
+        </li>
+        <li class="service-item">
+          <span class="service-item__number" aria-hidden="true">03</span>
+          <div class="service-item__body">
+            <h3 class="service-item__title">Motion & Interaction</h3>
+            <p class="service-item__desc">Animation that communicates, not decorates. Microinteractions with purpose, transitions that orient.</p>
+          </div>
+        </li>
+        <li class="service-item">
+          <span class="service-item__number" aria-hidden="true">04</span>
+          <div class="service-item__body">
+            <h3 class="service-item__title">Digital Strategy</h3>
+            <p class="service-item__desc">IA, content architecture, and conversion thinking baked in from brief to build — not bolted on at the end.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="about__grid">
+        <div class="about__copy">
+          <p class="section-header__meta">04 — About</p>
+          <h2 id="about-heading" class="about__heading">A studio that treats code as craft.</h2>
+          <p class="about__body">
+            Horizon was founded on a single conviction: the best digital
+            experiences live at the overlap of obsessive design and clean
+            engineering. We don't separate the two disciplines — every
+            pixel is deliberate, every component is composable.
+          </p>
+          <p class="about__body">
+            We're a small, senior team. No juniors learning on your
+            budget. No hand-offs between siloed departments. Just focused
+            people who care.
+          </p>
+          <dl class="about__stats">
+            <div class="about__stat">
+              <dt class="about__stat-label">Projects shipped</dt>
+              <dd class="about__stat-value">84+</dd>
+            </div>
+            <div class="about__stat">
+              <dt class="about__stat-label">Years active</dt>
+              <dd class="about__stat-value">6</dd>
+            </div>
+            <div class="about__stat">
+              <dt class="about__stat-label">Team size</dt>
+              <dd class="about__stat-value">9</dd>
+            </div>
+          </dl>
+        </div>
+
+        <figure class="about__figure">
+          <img
+            class="about__image"
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=900&fit=crop&auto=format&fm=webp"
+            alt="Horizon studio team collaborating around a shared screen"
+            width="800"
+            height="900"
+          />
+          <figcaption class="about__caption">The Horizon team, New Delhi — 2024</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="contact__inner">
+        <p class="section-header__meta">05 — Contact</p>
+        <h2 id="contact-heading" class="contact__heading">
+          Let's make<br />something<br />
+          <em class="contact__heading-em">worth remembering.</em>
+        </h2>
+        <address class="contact__address">
+          <a class="contact__email" href="mailto:hello@horizon.studio">hello@horizon.studio</a>
+        </address>
+        <p class="contact__location">New Delhi, India</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <p class="site-footer__copy">© 2025 Horizon Studio. All rights reserved.</p>
+      <nav class="site-footer__nav" aria-label="Footer navigation">
+        <ul class="site-footer__list" role="list">
+          <li><a class="site-footer__link" href="#work">Work</a></li>
+          <li><a class="site-footer__link" href="#services">Services</a></li>
+          <li><a class="site-footer__link" href="#about">About</a></li>
+          <li><a class="site-footer__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
